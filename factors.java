@@ -6,6 +6,7 @@ class factors {
         // ask for n 
         System.out.println("What is your n number?");
         int n = In.getInt();
+        System.out.println(); // separator for numbers
 
         leastFactor(n);
     }
