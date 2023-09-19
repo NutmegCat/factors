@@ -3,6 +3,7 @@
 class factors {
     public static void main(String[] args) {
         
+        // loop to keep running until exit
         while (true) {
         // ask for n 
             System.out.println("\nWhat is your n number (-1 to exit)?");
