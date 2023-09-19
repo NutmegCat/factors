@@ -3,12 +3,20 @@
 class factors {
     public static void main(String[] args) {
         
+        while (true) {
         // ask for n 
-        System.out.println("What is your n number?");
-        int n = In.getInt();
-        System.out.println(); // separator for numbers
+            System.out.println("\nWhat is your n number (-1 to exit)?");
+            int n = In.getInt();
+            System.out.println(); // separator for numbers
 
-        leastFactor(n);
+            if (n == -1) {
+                System.out.println("Exiting...\n");
+                break;
+            } else {
+                System.out.println("Output:");
+                leastFactor(n);
+            }
+        }
     }
 
     public static int leastFactor (int n) {
